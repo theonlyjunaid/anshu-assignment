@@ -88,7 +88,6 @@ const HeroSection = () => {
                                     key={category.label}
                                     whileHover={{ scale: 1.05, backgroundColor: 'rgba(255, 255, 255, 0.2)' }}
                                     whileTap={{ scale: 0.95 }}
-                                    onClick={() => router.push(category.href)}
                                     className="bg-white/10 backdrop-blur-sm p-4 rounded-xl text-white text-center cursor-pointer transition-colors"
                                     initial={{ opacity: 0, y: 20 }}
                                     animate={{ opacity: 1, y: 0 }}

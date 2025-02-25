@@ -1,0 +1,80 @@
+export const featuredProducts = [
+    {
+        id: 1,
+        images: ['/images/vitamin_1.jpg', '/images/vitamin_2.jpg', '/images/vitamin_3.jpg', '/images/vitamin_4.jpg'],
+        title: 'Pure Nutrition Advanced Multivitamin Complex Plus',
+        price: 49.99,
+        rating: 4.8,
+        discount: 20,
+        quantity: 100,
+        brand: 'Pure Nutrition',
+        category: 'Vitamins',
+        benefits: ['Immune Support', 'Energy', 'Wellness'],
+        description: 'A comprehensive multivitamin formula crafted by Pure Nutrition experts. Contains 23 essential vitamins and minerals, including Vitamin D3, B-Complex, Zinc, and Selenium. Scientifically formulated to support daily wellness, boost immunity, and enhance energy levels. Made with premium ingredients in FDA-registered facilities.'
+    },
+    {
+        id: 2,
+        images: ['/images/protein_1.jpg', '/images/protein_2.jpg', '/images/protein_3.jpg', '/images/protein_4.jpg'],
+        title: 'B-Green Organic Plant Protein Elite Blend',
+        price: 39.99,
+        rating: 4.9,
+        discount: 15,
+        quantity: 100,
+        brand: 'B-Green',
+        category: 'Supplements',
+        benefits: ['Muscle Growth', 'Recovery', 'Vegan'],
+        description: 'Premium plant-based protein powder by B-Green featuring a unique blend of pea, hemp, and pumpkin seed proteins. Delivers 24g of complete protein per serving with all essential amino acids. Enhanced with digestive enzymes for optimal absorption. 100% organic, non-GMO, and sustainably sourced ingredients.'
+    },
+    {
+        id: 3,
+        images: ['/images/omega_1.jpg', '/images/omega_2.jpg', '/images/omega_3.jpg', '/images/omega_4.jpg'],
+        title: 'Health Kart Triple Strength Omega-3 Fish Oil',
+        price: 34.99,
+        rating: 5,
+        discount: 10,
+        quantity: 100,
+        brand: 'Health Kart',
+        category: 'Supplements',
+        benefits: ['Heart Health', 'Brain Function'],
+        description: 'High-potency fish oil supplement from Health Kart containing 2400mg of Omega-3s per serving. Sourced from wild-caught fish and molecularly distilled for maximum purity. Features optimal EPA/DHA ratio for enhanced absorption. Third-party tested for heavy metals and environmental toxins.'
+    },
+    {
+        id: 4,
+        images: ['/images/collagen_1.jpg', '/images/collagen_2.jpg', '/images/collagen_3.jpg', '/images/collagen_4.jpg'],
+        title: 'Cureveda Gold Standard Collagen Peptides',
+        price: 45.99,
+        rating: 4.9,
+        discount: 25,
+        quantity: 100,
+        brand: 'Cureveda',
+        category: 'Beauty & Health',
+        benefits: ['Skin Health', 'Joint Support'],
+        description: 'Premium hydrolyzed collagen peptides by Cureveda, sourced from grass-fed, pasture-raised bovine. Contains Types I & III collagen for comprehensive support. Enhanced with Vitamin C and Hyaluronic Acid for optimal collagen synthesis and absorption. Unflavored and easily dissolves in any beverage.'
+    },
+    {
+        id: 5,
+        images: ['/images/probiotic_1.jpg', '/images/probiotic_2.jpg', '/images/probiotic_3.jpg', '/images/probiotic_4.jpg'],
+        title: 'Health Kart Professional Strength Probiotic Complex',
+        price: 29.99,
+        rating: 3.6,
+        discount: 30,
+        quantity: 100,
+        brand: 'Health Kart',
+        category: 'Digestive Health',
+        benefits: ['Gut Health', 'Immunity'],
+        description: 'Advanced probiotic formula from Health Kart containing 50 billion CFUs and 12 clinically studied strains. Features delayed-release technology for optimal delivery to the gut. Includes prebiotic fiber to support probiotic growth. Shelf-stable formula requires no refrigeration.'
+    },
+    {
+        id: 6,
+        images: ['/images/greens_1.jpg', '/images/greens_2.jpg', '/images/greens_3.jpg', '/images/greens_4.jpg'],
+        title: 'Cureveda Ultimate Organic Greens Superfood Complex',
+        price: 59.99,
+        rating: 3.8,
+        discount: 15,
+        quantity: 100,
+        brand: 'Cureveda',
+        category: 'Superfoods',
+        benefits: ['Detox', 'Energy', 'Nutrition'],
+        description: 'Premium organic greens powder by Cureveda featuring over 40 nutrient-rich superfoods, herbs, and mushrooms. Includes spirulina, chlorella, wheatgrass, and adaptogenic herbs. Enhanced with digestive enzymes and probiotics for optimal nutrient absorption. Natural mint flavor with no artificial sweeteners.'
+    }
+]
